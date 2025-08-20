@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CMRS - Coopérative Minière Rising Star",
+  title: "COMRS - Coopérative Minière Rising Star",
   description: "Licensed mining cooperative operating in Eastern DRC, supplying high-value minerals for global industries.",
 };
 
