@@ -29,46 +29,74 @@ export default function Services() {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Lithium Ore */}
-            <a href="/materials/lithium" className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🔋</div>
-              <h3 className="text-xl font-bold text-primary mb-1">Lithium Ore</h3>
-              <p className="text-sm text-secondary mb-2 font-semibold">Spodumene-rich</p>
-              <p className="text-secondary">
-                Critical for EV batteries and renewable energy storage solutions.
-              </p>
-            </a>
+        {/* Lithium Ore */}
+  <a
+    href="/materials/lithium"
+    className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow"
+  >
+    <div
+      className="w-16 h-16 rounded-full mx-auto mb-6 bg-cover bg-center shadow-md"
+      style={{ backgroundImage: "url('/images/lithium-bg.jpg')" }}
+    />
+    <h3 className="text-xl font-bold text-primary mb-1">Lithium Ore</h3>
+    <p className="text-sm text-secondary mb-2 font-semibold">Spodumene-rich</p>
+    <p className="text-secondary">
+      Critical for EV batteries and renewable energy storage solutions.
+    </p>
+  </a>
 
-            {/* Copper Ore */}
-            <a href="/materials/copper" className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🧲</div>
-              <h3 className="text-xl font-bold text-primary mb-1">Copper Ore</h3>
-              <p className="text-sm text-secondary mb-2 font-semibold">High-grade</p>
-              <p className="text-secondary">
-                Essential for electrical infrastructure and green technology.
-              </p>
-            </a>
+  {/* Copper Ore */}
+  <a
+    href="/materials/copper"
+    className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow"
+  >
+    <div
+      className="w-16 h-16 rounded-full mx-auto mb-6 bg-cover bg-center shadow-md"
+      style={{ backgroundImage: "url('./copper.jpg')" }}
+    />
+    <h3 className="text-xl font-bold text-primary mb-1">Copper Ore</h3>
+    <p className="text-sm text-secondary mb-2 font-semibold">High-grade</p>
+    <p className="text-secondary">
+      Essential for electrical infrastructure and green technology.
+    </p>
+  </a>
 
-            {/* Beryllium Ore */}
-            <a href="/materials/beryllium" className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🪨</div>
-              <h3 className="text-xl font-bold text-primary mb-1">Beryllium Ore</h3>
-              <p className="text-sm text-secondary mb-2 font-semibold">Strategic mineral</p>
-              <p className="text-secondary">
-                Vital for aerospace, defense, and nuclear applications.
-              </p>
-            </a>
+  {/* Beryllium Ore */}
+  <a
+    href="/materials/beryllium"
+    className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow"
+  >
+    <div
+      className="w-16 h-16 rounded-full mx-auto mb-6 bg-cover bg-center shadow-md"
+      style={{ backgroundImage: "url('./beryllium.jpg')" }}
+    />
+    <h3 className="text-xl font-bold text-primary mb-1">Beryllium Ore</h3>
+    <p className="text-sm text-secondary mb-2 font-semibold">
+      Strategic mineral
+    </p>
+    <p className="text-secondary">
+      Vital for aerospace, defense, and nuclear applications.
+    </p>
+  </a>
 
-            {/* Gold */}
-            <a href="/materials/gold" className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow">
-              <div className="w-16 h-16 bg-accent/20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🥇</div>
-              <h3 className="text-xl font-bold text-primary mb-1">Gold</h3>
-              <p className="text-sm text-secondary mb-2 font-semibold">Investment grade</p>
-              <p className="text-secondary">
-                Traditional store of value and industrial applications.
-              </p>
-            </a>
-          </div>
+  {/* Gold */}
+  <a
+    href="/materials/gold"
+    className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 text-center hover:shadow-xl transition-shadow"
+  >
+    <div
+      className="w-16 h-16 rounded-full mx-auto mb-6 bg-cover bg-center shadow-md"
+      style={{ backgroundImage: "url('../photos/beryllium.jpg')" }}
+    />
+    <h3 className="text-xl font-bold text-primary mb-1">Gold</h3>
+    <p className="text-sm text-secondary mb-2 font-semibold">
+      Investment grade
+    </p>
+    <p className="text-secondary">
+      Traditional store of value and industrial applications.
+    </p>
+  </a>
+</div>
         </div>
       </section>
 

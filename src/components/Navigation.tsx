@@ -27,7 +27,7 @@ const Navigation = () => {
                 height={40}
                 className="h-8 w-8 md:h-15 md:w-15 object-contain"
               />
-              <span className="text-2xl md:text-3xl font-extrabold tracking-tight text-primary">CMRS</span>
+              <span className="text-xl md:text-3xl font-extrabold tracking-tight text-primary">COMRS</span>
             </Link>
           </div>
           
