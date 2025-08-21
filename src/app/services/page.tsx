@@ -13,7 +13,7 @@ export default function Services() {
               Our Operations
             </h1>
             <p className="text-xl text-secondary mb-8 max-w-4xl mx-auto leading-relaxed">
-              From mineral-rich mountain ranges to international shipping routes, CMRS runs fully licensed operations built for scalable, ethical mineral extraction.
+              From mineral-rich mountain ranges to international shipping routes, COMRS runs fully licensed operations built for scalable, ethical mineral extraction.
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ export default function Services() {
           <div className="max-w-4xl mx-auto mb-12">
             <div className="prose prose-lg mx-auto text-center">
               <p className="text-lg text-secondary leading-relaxed">
-                CMRS owns and operates secure warehouses in Bukavu, a fleet of 25MT trucks, and has access to regional road and port systems via Rwanda, Burundi, and Tanzania. We export via Dar es Salaam, with future plans for rail connections via Kigoma.
+                COMRS owns and operates secure warehouses in Bukavu, a fleet of 25MT trucks, and has access to regional road and port systems via Rwanda, Burundi, and Tanzania. We export via Dar es Salaam, with future plans for rail connections via Kigoma.
               </p>
             </div>
           </div>
