@@ -13,7 +13,7 @@ export default function About() {
         <div className="absolute inset-0 -z-10">
           <Image
             src={AboutBg}
-            alt="About CMRS background"
+            alt="About COMRS background"
             fill
             priority
             placeholder="blur"
@@ -31,7 +31,7 @@ export default function About() {
               Who We Are
             </h1>
             <p className="text-xl text-gray-100 mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow">
-              Learn more about Coopérative Minière Rising Star (CMRS), our mission, and what makes us a trusted player in the mineral supply chain.
+              Learn more about Coopérative Minière Rising Star (COMRS), our mission, and what makes us a trusted player in the mineral supply chain.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg mx-auto text-center">
             <p className="text-lg text-secondary leading-relaxed">
-              CMRS is a registered and licensed mining cooperative based in Bukavu, Eastern Democratic Republic of Congo. 
+              COMRS is a registered and licensed mining cooperative based in Bukavu, Eastern Democratic Republic of Congo. 
               We specialize in the ethical extraction, processing, and export of critical minerals including lithium, copper, 
               beryllium, and gold. With a commitment to operational excellence and responsible sourcing, we partner with 
               global investors and governments to power the industries of tomorrow.
@@ -186,7 +186,7 @@ export default function About() {
             </div>
             <div className="prose prose-lg mx-auto text-center">
               <p className="text-lg text-gray-700 leading-relaxed">
-                CMRS operates with respect for local communities, environmental standards, and international compliance. 
+                COMRS operates with respect for local communities, environmental standards, and international compliance. 
                 We are committed to safe working conditions, community development, and long-term partnerships based on trust.
               </p>
             </div>
@@ -201,7 +201,7 @@ export default function About() {
             Interested in partnering with us or learning more?
           </h2>
           <p className="text-xl text-gray-200 mb-8">
-            Discover how CMRS can be your trusted partner in the mineral supply chain.
+            Discover how COMRS can be your trusted partner in the mineral supply chain.
           </p>
           <a 
             href="/contact" 
