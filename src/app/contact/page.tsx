@@ -23,12 +23,25 @@ export default function Contact() {
 
   const isValid = form.name && form.email && form.subject && form.message;
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setTouched({ name: true, email: true, subject: true, message: true });
     if (!isValid) return;
-    setSubmitted(true);
-    // TODO: connect form handler
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (!response.ok) {
+        throw new Error('Failed to send message');
+      }
+      setSubmitted(true);
+      setForm({ name: '', email: '', subject: '', message: '' });
+    } catch (error) {
+      console.error(error);
+      alert('There was an error sending your message. Please try again later.');
+    }
   };
 
   return (
@@ -170,13 +183,13 @@ export default function Contact() {
                   <div className="text-secondary break-all">info@risingstarminerals.com</div>
                 </div>
               </div>
-              <div className="flex items-start gap-3">
+             {/* <div className="flex items-start gap-3">
                 <span className="text-2xl">📞</span>
                 <div>
                   <div className="font-semibold text-primary">Phone</div>
                   <div className="text-secondary">+243 894 881 42</div>
                 </div>
-              </div>
+              </div>*/}
               <div className="flex items-start gap-3">
                 <span className="text-2xl">🕘</span>
                 <div>

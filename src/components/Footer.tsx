@@ -19,10 +19,10 @@ export default function Footer() {
               <span className="block font-medium text-white">Email</span>
               <a href="mailto:info@risingstarminerals.com" className="hover:text-white">info@risingstarminerals.com</a>
             </li>
-            <li>
+           {/*<li>
               <span className="block font-medium text-white">Phone</span>
-              <a href="tel:+243000000000" className="hover:text-white">+243 894 881 422 </a>
-            </li>
+              <a href="tel:+243894881422" className="hover:text-white">+243 894 881 422 </a>
+            </li> */}
             <li>
               <span className="block font-medium text-white">Address</span>
               <span>C.IBANDA, Bukavu, Democratic Republic of Congo</span>
