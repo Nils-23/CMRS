@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="max-w-screen-xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-8">
         {/* Brand */}
         <div>
-          <div className="text-xl font-bold text-white">Rising Star Minerals</div>
+          <div className="text-xl font-bold text-white">Cooperative Miniere Rising Star</div>
           <div className="text-sm text-gray-300 mt-2">Ethical Mineral Supply from the Heart of Africa</div>
-          <div className="mt-6 text-sm text-gray-400">© {currentYear} Rising Star Minerals. All rights reserved.</div>
+          <div className="mt-6 text-sm text-gray-400">© {currentYear} Rising Star . All rights reserved.</div>
         </div>
 
         {/* Contact */}
@@ -21,7 +21,7 @@ export default function Footer() {
             </li>
             <li>
               <span className="block font-medium text-white">Phone</span>
-              <a href="tel:+243000000000" className="hover:text-white">+243 000 000 000</a>
+              <a href="tel:+243000000000" className="hover:text-white">+243 894 881 422 </a>
             </li>
             <li>
               <span className="block font-medium text-white">Address</span>
