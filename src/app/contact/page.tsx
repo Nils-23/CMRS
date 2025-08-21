@@ -174,7 +174,7 @@ export default function Contact() {
                 <span className="text-2xl">📞</span>
                 <div>
                   <div className="font-semibold text-primary">Phone</div>
-                  <div className="text-secondary">+243 894 881 422</div>
+                  <div className="text-secondary">+243 894 881 42</div>
                 </div>
               </div>
               <div className="flex items-start gap-3">
