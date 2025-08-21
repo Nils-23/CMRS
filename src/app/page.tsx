@@ -32,7 +32,7 @@ export default function Home() {
           </h1>
           
           <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed text-gray-200">
-          Coopérative Minière Rising Star (CMRS) is a licensed mining cooperative with over 15 years of operational experience in Eastern DRC,
+          Coopérative Minière Rising Star (COMRS) is a licensed mining cooperative with over 15 years of operational experience in Eastern DRC,
            supplying high-value minerals to global industries.
           </p>
           
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="container-custom">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-              Why Choose CMRS?
+              Why Choose COMRS?
             </h2>
             <p className="text-xl text-secondary max-w-2xl mx-auto">
             A trusted Congolese mining cooperative delivering ethically sourced, high-value minerals to global markets.
@@ -105,7 +105,7 @@ export default function Home() {
       <section className="section-spacing bg-primary">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-          Ready to Partner with CMRS?
+          Ready to Partner with COMRS?
           </h2>
           <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
           Contact us today to explore investment opportunities and learn more about our mining operations and mineral offerings.
